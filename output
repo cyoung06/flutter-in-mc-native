@@ -1,0 +1,624 @@
+"flutter_gpu" is already in "dependencies". Will try to update the constraint.
+Resolving dependencies...
+Downloading packages...
+  flutter_lints 5.0.0 (6.0.0 available)
+  leak_tracker 10.0.9 (11.0.1 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  lints 5.1.1 (6.0.0 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  test_api 0.7.4 (0.7.6 available)
+  vector_math 2.1.4 (2.2.0 available)
+  vm_service 15.0.0 (15.0.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Resolving dependencies...
+Downloading packages...
+  flutter_lints 5.0.0 (6.0.0 available)
+  leak_tracker 10.0.9 (11.0.1 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  lints 5.1.1 (6.0.0 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  test_api 0.7.4 (0.7.6 available)
+  vector_math 2.1.4 (2.2.0 available)
+  vm_service 15.0.0 (15.0.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+lib/main.dart:1:1: Error: The language version 3.8 specified for the package 'myapp' is too high. The highest supported language version is 3.7.
+// Copyright 2013 The Flutter Authors. All rights reserved.
+^
+../../../../../../flutter/packages/flutter/lib/src/rendering/object.dart:654:5: Error: Type 'RSuperellipse' not found.
+    RSuperellipse clipRSuperellipse,
+    ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/object.dart:654:5: Error: 'RSuperellipse' isn't a type.
+    RSuperellipse clipRSuperellipse,
+    ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/object.dart:664:11: Error: 'RSuperellipse' isn't a type.
+    final RSuperellipse offsetShape = clipRSuperellipse.shift(offset);
+          ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:275:11: Error: 'RSuperellipse' isn't a type.
+    final RSuperellipse borderRect = borderRadius.resolve(textDirection).toRSuperellipse(rect);
+          ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:276:11: Error: 'RSuperellipse' isn't a type.
+    final RSuperellipse adjustedRect = borderRect.deflate(side.strokeInset);
+          ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:277:20: Error: The method 'addRSuperellipse' isn't defined for the class 'Path'.
+ - 'Path' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'addRSuperellipse'.
+    return Path()..addRSuperellipse(adjustedRect);
+                   ^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:282:20: Error: The method 'addRSuperellipse' isn't defined for the class 'Path'.
+ - 'Path' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'addRSuperellipse'.
+    return Path()..addRSuperellipse(borderRadius.resolve(textDirection).toRSuperellipse(rect));
+                   ^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:290:14: Error: The method 'drawRSuperellipse' isn't defined for the class 'Canvas'.
+ - 'Canvas' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'drawRSuperellipse'.
+      canvas.drawRSuperellipse(borderRadius.resolve(textDirection).toRSuperellipse(rect), paint);
+             ^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:310:17: Error: 'RSuperellipse' isn't a type.
+          final RSuperellipse base = borderRadius
+                ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:304:18: Error: The method 'drawRSuperellipse' isn't defined for the class 'Canvas'.
+ - 'Canvas' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'drawRSuperellipse'.
+          canvas.drawRSuperellipse(
+                 ^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:314:18: Error: The method 'drawRSuperellipse' isn't defined for the class 'Canvas'.
+ - 'Canvas' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'drawRSuperellipse'.
+          canvas.drawRSuperellipse(base, side.toPaint());
+                 ^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:348:5: Error: 'RSuperellipse' isn't a type.
+    RSuperellipse rsuperellipse = radius.toRSuperellipse(rect);
+    ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:352:12: Error: The method 'drawRSuperellipse' isn't defined for the class 'Canvas'.
+ - 'Canvas' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'drawRSuperellipse'.
+    canvas.drawRSuperellipse(rsuperellipse, paint);
+           ^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:357:5: Error: 'RSuperellipse' isn't a type.
+    RSuperellipse rsuperellipse = radius.toRSuperellipse(rect);
+    ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart:361:20: Error: The method 'addRSuperellipse' isn't defined for the class 'Path'.
+ - 'Path' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'addRSuperellipse'.
+    return Path()..addRSuperellipse(rsuperellipse);
+                   ^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/border_radius.dart:452:3: Error: Type 'RSuperellipse' not found.
+  RSuperellipse toRSuperellipse(Rect rect) {
+  ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/border_radius.dart:456:12: Error: The getter 'RSuperellipse' isn't defined for the class 'BorderRadius'.
+ - 'BorderRadius' is from 'package:flutter/src/painting/border_radius.dart' ('../../../../../../flutter/packages/flutter/lib/src/painting/border_radius.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'RSuperellipse'.
+    return RSuperellipse.fromRectAndCorners(
+           ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/clip.dart:72:5: Error: Type 'RSuperellipse' not found.
+    RSuperellipse rse,
+    ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/clip.dart:72:5: Error: 'RSuperellipse' isn't a type.
+    RSuperellipse rse,
+    ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/painting/clip.dart:78:36: Error: The method 'clipRSuperellipse' isn't defined for the class 'Canvas'.
+ - 'Canvas' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'clipRSuperellipse'.
+      (bool doAntiAlias) => canvas.clipRSuperellipse(rse, doAntiAlias: doAntiAlias),
+                                   ^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1799:3: Error: Type 'RSuperellipse' not found.
+  RSuperellipse? _clipRSuperellipse;
+  ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1789:27: Error: Type 'RSuperellipse' not found.
+  ClipRSuperellipseLayer({RSuperellipse? clipRSuperellipse, Clip clipBehavior = Clip.antiAlias})
+                          ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1798:3: Error: Type 'RSuperellipse' not found.
+  RSuperellipse? get clipRSuperellipse => _clipRSuperellipse;
+  ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1800:25: Error: Type 'RSuperellipse' not found.
+  set clipRSuperellipse(RSuperellipse? value) {
+                        ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1789:27: Error: 'RSuperellipse' isn't a type.
+  ClipRSuperellipseLayer({RSuperellipse? clipRSuperellipse, Clip clipBehavior = Clip.antiAlias})
+                          ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1799:3: Error: 'RSuperellipse' isn't a type.
+  RSuperellipse? _clipRSuperellipse;
+  ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1800:25: Error: 'RSuperellipse' isn't a type.
+  set clipRSuperellipse(RSuperellipse? value) {
+                        ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1847:38: Error: 'ClipRSuperellipseEngineLayer' isn't a type.
+        oldLayer: _engineLayer as ui.ClipRSuperellipseEngineLayer?,
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1844:29: Error: The method 'pushClipRSuperellipse' isn't defined for the class 'SceneBuilder'.
+ - 'SceneBuilder' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'pushClipRSuperellipse'.
+      engineLayer = builder.pushClipRSuperellipse(
+                            ^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/layer.dart:1861:40: Error: 'RSuperellipse' isn't a type.
+    properties.add(DiagnosticsProperty<RSuperellipse>('clipRSuperellipse', clipRSuperellipse));
+                                       ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1008:9: Error: Type 'SemanticsValidationResult' not found.
+  final SemanticsValidationResult validationResult;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1011:9: Error: Type 'SemanticsInputType' not found.
+  final SemanticsInputType inputType;
+        ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:2170:9: Error: Type 'SemanticsValidationResult' not found.
+  final SemanticsValidationResult validationResult;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:2181:9: Error: Type 'SemanticsInputType' not found.
+  final SemanticsInputType? inputType;
+        ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3159:3: Error: Type 'SemanticsValidationResult' not found.
+  SemanticsValidationResult _validationResult = _kEmptyConfig.validationResult;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3171:3: Error: Type 'SemanticsInputType' not found.
+  SemanticsInputType _inputType = _kEmptyConfig.inputType;
+  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3158:3: Error: Type 'SemanticsValidationResult' not found.
+  SemanticsValidationResult get validationResult => _validationResult;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3170:3: Error: Type 'SemanticsInputType' not found.
+  SemanticsInputType get inputType => _inputType;
+  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5716:3: Error: Type 'SemanticsValidationResult' not found.
+  SemanticsValidationResult _validationResult = SemanticsValidationResult.none;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5724:3: Error: Type 'SemanticsInputType' not found.
+  SemanticsInputType _inputType = SemanticsInputType.none;
+  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5715:3: Error: Type 'SemanticsValidationResult' not found.
+  SemanticsValidationResult get validationResult => _validationResult;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5717:24: Error: Type 'SemanticsValidationResult' not found.
+  set validationResult(SemanticsValidationResult value) {
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5723:3: Error: Type 'SemanticsInputType' not found.
+  SemanticsInputType get inputType => _inputType;
+  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5725:17: Error: Type 'SemanticsInputType' not found.
+  set inputType(SemanticsInputType value) {
+                ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1328:29: Error: Undefined name 'SemanticsValidationResult'.
+    this.validationResult = SemanticsValidationResult.none,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:118:19: Error: Member not found: 'alertDialog'.
+    SemanticsRole.alertDialog => _noCheckRequired,
+                  ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:119:19: Error: Member not found: 'dialog'.
+    SemanticsRole.dialog => _noCheckRequired,
+                  ^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:124:19: Error: Member not found: 'table'.
+    SemanticsRole.table => _semanticsTable,
+                  ^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:125:19: Error: Member not found: 'cell'.
+    SemanticsRole.cell => _semanticsCell,
+                  ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:126:19: Error: Member not found: 'row'.
+    SemanticsRole.row => _semanticsRow,
+                  ^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:127:19: Error: Member not found: 'columnHeader'.
+    SemanticsRole.columnHeader => _semanticsColumnHeader,
+                  ^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:128:19: Error: Member not found: 'radioGroup'.
+    SemanticsRole.radioGroup => _semanticsRadioGroup,
+                  ^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:129:19: Error: Member not found: 'menu'.
+    SemanticsRole.menu => _semanticsMenu,
+                  ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:130:19: Error: Member not found: 'menuBar'.
+    SemanticsRole.menuBar => _semanticsMenuBar,
+                  ^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:131:19: Error: Member not found: 'menuItem'.
+    SemanticsRole.menuItem => _semanticsMenuItem,
+                  ^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:132:19: Error: Member not found: 'menuItemCheckbox'.
+    SemanticsRole.menuItemCheckbox => _semanticsMenuItemCheckbox,
+                  ^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:133:19: Error: Member not found: 'menuItemRadio'.
+    SemanticsRole.menuItemRadio => _semanticsMenuItemRadio,
+                  ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:134:19: Error: Member not found: 'alert'.
+    SemanticsRole.alert => _noLiveRegion,
+                  ^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:135:19: Error: Member not found: 'status'.
+    SemanticsRole.status => _noLiveRegion,
+                  ^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:136:19: Error: Member not found: 'list'.
+    SemanticsRole.list => _noCheckRequired,
+                  ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:137:19: Error: Member not found: 'listItem'.
+    SemanticsRole.listItem => _semanticsListItem,
+                  ^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:140:19: Error: Member not found: 'searchBox'.
+    SemanticsRole.searchBox => _unimplemented,
+                  ^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:141:19: Error: Member not found: 'dragHandle'.
+    SemanticsRole.dragHandle => _unimplemented,
+                  ^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:142:19: Error: Member not found: 'spinButton'.
+    SemanticsRole.spinButton => _unimplemented,
+                  ^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:143:19: Error: Member not found: 'comboBox'.
+    SemanticsRole.comboBox => _unimplemented,
+                  ^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:144:19: Error: Member not found: 'form'.
+    SemanticsRole.form => _unimplemented,
+                  ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:145:19: Error: Member not found: 'tooltip'.
+    SemanticsRole.tooltip => _unimplemented,
+                  ^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:146:19: Error: Member not found: 'loadingSpinner'.
+    SemanticsRole.loadingSpinner => _unimplemented,
+                  ^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:147:19: Error: Member not found: 'progressBar'.
+    SemanticsRole.progressBar => _unimplemented,
+                  ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:148:19: Error: Member not found: 'hotKey'.
+    SemanticsRole.hotKey => _unimplemented,
+                  ^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:193:58: Error: Member not found: 'row'.
+      if (child.getSemanticsData().role != SemanticsRole.row) {
+                                                         ^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:202:44: Error: Member not found: 'table'.
+    if (node.parent?.role != SemanticsRole.table) {
+                                           ^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:207:58: Error: Member not found: 'cell'.
+      if (child.getSemanticsData().role != SemanticsRole.cell &&
+                                                         ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:208:58: Error: Member not found: 'columnHeader'.
+          child.getSemanticsData().role != SemanticsRole.columnHeader) {
+                                                         ^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:217:44: Error: Member not found: 'row'.
+    if (node.parent?.role != SemanticsRole.row && node.parent?.role != SemanticsRole.cell) {
+                                           ^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:217:86: Error: Member not found: 'cell'.
+    if (node.parent?.role != SemanticsRole.row && node.parent?.role != SemanticsRole.cell) {
+                                                                                     ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:224:44: Error: Member not found: 'row'.
+    if (node.parent?.role != SemanticsRole.row && node.parent?.role != SemanticsRole.cell) {
+                                           ^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:224:86: Error: Member not found: 'cell'.
+    if (node.parent?.role != SemanticsRole.row && node.parent?.role != SemanticsRole.cell) {
+                                                                                     ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:282:54: Error: Member not found: 'menu'.
+      if (currentNode?.parent?.role == SemanticsRole.menu ||
+                                                     ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:283:54: Error: Member not found: 'menuBar'.
+          currentNode?.parent?.role == SemanticsRole.menuBar) {
+                                                     ^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:299:54: Error: Member not found: 'menu'.
+      if (currentNode?.parent?.role == SemanticsRole.menu ||
+                                                     ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:300:54: Error: Member not found: 'menuBar'.
+          currentNode?.parent?.role == SemanticsRole.menuBar) {
+                                                     ^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:316:54: Error: Member not found: 'menu'.
+      if (currentNode?.parent?.role == SemanticsRole.menu ||
+                                                     ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:317:54: Error: Member not found: 'menuBar'.
+          currentNode?.parent?.role == SemanticsRole.menuBar) {
+                                                     ^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:346:51: Error: Member not found: 'list'.
+    if (parentSemanticsData.role != SemanticsRole.list) {
+                                                  ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:349:73: Error: Member not found: 'list'.
+        "parent node ${parent.id} doesn't have the role ${SemanticsRole.list}. "
+                                                                        ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:350:44: Error: Member not found: 'list'.
+        'Please assign the ${SemanticsRole.list} to node ${parent.id}',
+                                           ^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1008:9: Error: 'SemanticsValidationResult' isn't a type.
+  final SemanticsValidationResult validationResult;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1011:9: Error: 'SemanticsInputType' isn't a type.
+  final SemanticsInputType inputType;
+        ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1078:22: Error: 'SemanticsValidationResult' isn't a type.
+        EnumProperty<SemanticsValidationResult>(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1076:29: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsData'.
+ - 'SemanticsData' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+    if (validationResult != SemanticsValidationResult.none) {
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:1081:25: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsData'.
+ - 'SemanticsData' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+          defaultValue: SemanticsValidationResult.none,
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:2170:9: Error: 'SemanticsValidationResult' isn't a type.
+  final SemanticsValidationResult validationResult;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:2181:9: Error: 'SemanticsInputType' isn't a type.
+  final SemanticsInputType? inputType;
+        ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:2222:20: Error: 'SemanticsValidationResult' isn't a type.
+      EnumProperty<SemanticsValidationResult>(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:2225:23: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsProperties'.
+ - 'SemanticsProperties' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+        defaultValue: SemanticsValidationResult.none,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3159:3: Error: 'SemanticsValidationResult' isn't a type.
+  SemanticsValidationResult _validationResult = _kEmptyConfig.validationResult;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3171:3: Error: 'SemanticsInputType' isn't a type.
+  SemanticsInputType _inputType = _kEmptyConfig.inputType;
+  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3293:5: Error: 'SemanticsValidationResult' isn't a type.
+    SemanticsValidationResult validationResult = _validationResult;
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3294:5: Error: 'SemanticsInputType' isn't a type.
+    SemanticsInputType inputType = _inputType;
+    ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3353:26: Error: The getter 'SemanticsInputType' isn't defined for the class 'SemanticsNode'.
+ - 'SemanticsNode' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsInputType'.
+        if (inputType == SemanticsInputType.none) {
+                         ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3403:33: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsNode'.
+ - 'SemanticsNode' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+        if (validationResult == SemanticsValidationResult.none) {
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3405:40: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsNode'.
+ - 'SemanticsNode' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+        } else if (validationResult == SemanticsValidationResult.valid) {
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3408:41: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsNode'.
+ - 'SemanticsNode' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+          if (node._validationResult != SemanticsValidationResult.none &&
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3409:41: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsNode'.
+ - 'SemanticsNode' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+              node._validationResult != SemanticsValidationResult.valid) {
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3535:7: Error: No named parameter with the name 'controlsNodes'.
+      controlsNodes: data.controlsNodes?.toList(),
+      ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3736:35: Error: 'SemanticsInputType' isn't a type.
+      properties.add(EnumProperty<SemanticsInputType>('inputType', _inputType));
+                                  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:3735:23: Error: The getter 'SemanticsInputType' isn't defined for the class 'SemanticsNode'.
+ - 'SemanticsNode' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsInputType'.
+    if (_inputType != SemanticsInputType.none) {
+                      ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5627:30: Error: Member not found: 'hasRequiredState'.
+      _hasFlag(SemanticsFlag.hasRequiredState) ? _hasFlag(SemanticsFlag.isRequired) : null;
+                             ^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5627:73: Error: Member not found: 'isRequired'.
+      _hasFlag(SemanticsFlag.hasRequiredState) ? _hasFlag(SemanticsFlag.isRequired) : null;
+                                                                        ^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5629:28: Error: Member not found: 'hasRequiredState'.
+    _setFlag(SemanticsFlag.hasRequiredState, true);
+                           ^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5630:28: Error: Member not found: 'isRequired'.
+    _setFlag(SemanticsFlag.isRequired, value!);
+                           ^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5716:3: Error: 'SemanticsValidationResult' isn't a type.
+  SemanticsValidationResult _validationResult = SemanticsValidationResult.none;
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5716:49: Error: Undefined name 'SemanticsValidationResult'.
+  SemanticsValidationResult _validationResult = SemanticsValidationResult.none;
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5717:24: Error: 'SemanticsValidationResult' isn't a type.
+  set validationResult(SemanticsValidationResult value) {
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5724:3: Error: 'SemanticsInputType' isn't a type.
+  SemanticsInputType _inputType = SemanticsInputType.none;
+  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5724:35: Error: Undefined name 'SemanticsInputType'.
+  SemanticsInputType _inputType = SemanticsInputType.none;
+                                  ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5725:17: Error: 'SemanticsInputType' isn't a type.
+  set inputType(SemanticsInputType value) {
+                ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5902:23: Error: The getter 'SemanticsInputType' isn't defined for the class 'SemanticsConfiguration'.
+ - 'SemanticsConfiguration' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsInputType'.
+    if (_inputType == SemanticsInputType.none) {
+                      ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5924:38: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsConfiguration'.
+ - 'SemanticsConfiguration' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+      if (child._validationResult == SemanticsValidationResult.invalid) {
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5926:29: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsConfiguration'.
+ - 'SemanticsConfiguration' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+        _validationResult = SemanticsValidationResult.invalid;
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart:5927:39: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'SemanticsConfiguration'.
+ - 'SemanticsConfiguration' is from 'package:flutter/src/semantics/semantics.dart' ('../../../../../../flutter/packages/flutter/lib/src/semantics/semantics.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+      } else if (_validationResult == SemanticsValidationResult.none) {
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/table.dart:453:44: Error: Member not found: 'cell'.
+      child: Semantics(role: SemanticsRole.cell, child: child),
+                                           ^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/editable_text.dart:5566:14: Error: 'SemanticsInputType' isn't a type.
+    final ui.SemanticsInputType inputType;
+             ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/editable_text.dart:5569:24: Error: Undefined name 'SemanticsInputType'.
+        inputType = ui.SemanticsInputType.phone;
+                       ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/editable_text.dart:5571:24: Error: Undefined name 'SemanticsInputType'.
+        inputType = ui.SemanticsInputType.url;
+                       ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/editable_text.dart:5573:24: Error: Undefined name 'SemanticsInputType'.
+        inputType = ui.SemanticsInputType.email;
+                       ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/editable_text.dart:5575:24: Error: Undefined name 'SemanticsInputType'.
+        inputType = ui.SemanticsInputType.text;
+                       ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:1089:23: Error: Type 'RSuperellipse' not found.
+  final CustomClipper<RSuperellipse>? clipper;
+                      ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:7387:5: Error: Type 'SemanticsValidationResult' not found.
+    SemanticsValidationResult validationResult = SemanticsValidationResult.none,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:7388:5: Error: Type 'ui.SemanticsInputType' not found.
+    ui.SemanticsInputType? inputType,
+    ^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:7387:50: Error: Undefined name 'SemanticsValidationResult'.
+    SemanticsValidationResult validationResult = SemanticsValidationResult.none,
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:1089:23: Error: 'RSuperellipse' isn't a type.
+  final CustomClipper<RSuperellipse>? clipper;
+                      ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:1127:41: Error: 'RSuperellipse' isn't a type.
+      DiagnosticsProperty<CustomClipper<RSuperellipse>>('clipper', clipper, defaultValue: null),
+                                        ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:7387:5: Error: 'SemanticsValidationResult' isn't a type.
+    SemanticsValidationResult validationResult = SemanticsValidationResult.none,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/basic.dart:7388:8: Error: 'SemanticsInputType' isn't a type.
+    ui.SemanticsInputType? inputType,
+       ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/cupertino/dialog.dart:466:51: Error: Member not found: 'alertDialog'.
+                              role: SemanticsRole.alertDialog,
+                                                  ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/cupertino/dialog.dart:1336:31: Error: Member not found: 'dialog'.
+          role: SemanticsRole.dialog,
+                              ^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/table.dart:608:33: Error: Member not found: 'table'.
+    config.role = SemanticsRole.table;
+                                ^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/table.dart:721:56: Error: Member not found: 'cell'.
+            (rawChildrens.single.role != SemanticsRole.cell &&
+                                                       ^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/table.dart:722:59: Error: Member not found: 'columnHeader'.
+                rawChildrens.single.role != SemanticsRole.columnHeader);
+                                                          ^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/table.dart:729:82: Error: Member not found: 'cell'.
+                          config: SemanticsConfiguration()..role = SemanticsRole.cell,
+                                                                                 ^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/table.dart:782:40: Error: Member not found: 'row'.
+                ..role = SemanticsRole.row,
+                                       ^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/proxy_box.dart:1724:57: Error: Type 'RSuperellipse' not found.
+class RenderClipRSuperellipse extends _RenderCustomClip<RSuperellipse> {
+                                                        ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/proxy_box.dart:1768:3: Error: Type 'RSuperellipse' not found.
+  RSuperellipse get _defaultClip =>
+  ^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/proxy_box.dart:1812:26: Error: The method 'drawRSuperellipse' isn't defined for the class 'Canvas'.
+ - 'Canvas' is from 'dart:ui'.
+Try correcting the name to the name of an existing method, or defining a method named 'drawRSuperellipse'.
+          context.canvas.drawRSuperellipse(_clip!.shift(offset), _debugPaint!);
+                         ^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/rendering/editable.dart:1388:24: Error: Undefined name 'SemanticsInputType'.
+      ..inputType = ui.SemanticsInputType.text;
+                       ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/form.dart:774:22: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'FormFieldState<T>'.
+ - 'FormFieldState' is from 'package:flutter/src/widgets/form.dart' ('../../../../../../flutter/packages/flutter/lib/src/widgets/form.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+          hasError ? SemanticsValidationResult.invalid : SemanticsValidationResult.valid,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/widgets/form.dart:774:58: Error: The getter 'SemanticsValidationResult' isn't defined for the class 'FormFieldState<T>'.
+ - 'FormFieldState' is from 'package:flutter/src/widgets/form.dart' ('../../../../../../flutter/packages/flutter/lib/src/widgets/form.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsValidationResult'.
+          hasError ? SemanticsValidationResult.invalid : SemanticsValidationResult.valid,
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart:1788:11: Error: 'SystemColorPalette' isn't a type.
+    final SystemColorPalette systemColors =
+          ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart:1784:10: Error: The getter 'SystemColor' isn't defined for the class 'ThemeData'.
+ - 'ThemeData' is from 'package:flutter/src/material/theme_data.dart' ('../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SystemColor'.
+    if (!SystemColor.platformProvidesSystemColors) {
+         ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart:1789:41: Error: The getter 'SystemColor' isn't defined for the class 'ThemeData'.
+ - 'ThemeData' is from 'package:flutter/src/material/theme_data.dart' ('../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SystemColor'.
+        brightness == Brightness.dark ? SystemColor.dark : SystemColor.light;
+                                        ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart:1789:60: Error: The getter 'SystemColor' isn't defined for the class 'ThemeData'.
+ - 'ThemeData' is from 'package:flutter/src/material/theme_data.dart' ('../../../../../../flutter/packages/flutter/lib/src/material/theme_data.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SystemColor'.
+        brightness == Brightness.dark ? SystemColor.dark : SystemColor.light;
+                                                           ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/dialog.dart:70:40: Error: Member not found: 'dialog'.
+    this.semanticsRole = SemanticsRole.dialog,
+                                       ^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/dialog.dart:83:40: Error: Member not found: 'dialog'.
+    this.semanticsRole = SemanticsRole.dialog,
+                                       ^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/dialog.dart:931:36: Error: Member not found: 'alertDialog'.
+      semanticsRole: SemanticsRole.alertDialog,
+                                   ^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/search_anchor.dart:1703:38: Error: The getter 'SemanticsInputType' isn't defined for the class '_SearchBarState'.
+ - '_SearchBarState' is from 'package:flutter/src/material/search_anchor.dart' ('../../../../../../flutter/packages/flutter/lib/src/material/search_anchor.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'SemanticsInputType'.
+                          inputType: SemanticsInputType.search,
+                                     ^^^^^^^^^^^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/popup_menu.dart:453:29: Error: Member not found: 'menuItem'.
+        role: SemanticsRole.menuItem,
+                            ^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/popup_menu.dart:741:31: Error: Member not found: 'menu'.
+          role: SemanticsRole.menu,
+                              ^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/dropdown.dart:234:42: Error: Member not found: 'menuItem'.
+    return Semantics(role: SemanticsRole.menuItem, child: child);
+                                         ^^^^^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/dropdown.dart:336:31: Error: Member not found: 'menu'.
+          role: SemanticsRole.menu,
+                              ^^^^
+../../../../../../flutter/packages/flutter/lib/src/material/data_table.dart:883:27: Error: Member not found: 'columnHeader'.
+      role: SemanticsRole.columnHeader,
+                          ^^^^^^^^^^^^
+Target kernel_snapshot_program failed: Exception
+#0      KernelSnapshot.build (package:flutter_tools/src/build_system/targets/common.dart:285:7)
+<asynchronous suspension>
+#1      _BuildInstance._invokeInternal (package:flutter_tools/src/build_system/build_system.dart:873:9)
+<asynchronous suspension>
+#2      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#3      _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart:811:32)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart:811:32)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#7      _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart:811:32)
+<asynchronous suspension>
+#8      FlutterBuildSystem.build (package:flutter_tools/src/build_system/build_system.dart:629:16)
+<asynchronous suspension>
+#9      BundleBuilder.build (package:flutter_tools/src/bundle_builder.dart:84:32)
+<asynchronous suspension>
+#10     BuildBundleCommand.runCommand (package:flutter_tools/src/commands/build_bundle.dart:144:5)
+<asynchronous suspension>
+#11     FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1563:27)
+<asynchronous suspension>
+#12     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#13     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#14     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:494:9)
+<asynchronous suspension>
+#15     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#16     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:431:5)
+<asynchronous suspension>
+#17     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:98:11)
+<asynchronous suspension>
+#18     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#19     main (package:flutter_tools/executable.dart:102:3)
+<asynchronous suspension>
+
+Failed to build bundle.
+/Users/syeyoung/Documents/dungeonsguide/flutterInmc/native/cmake-build-debug

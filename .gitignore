@@ -1,0 +1,3 @@
+cmake-build-debug/*
+FlutterEmbedder.framework.zip
+out/*
